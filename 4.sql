@@ -1,0 +1,2 @@
+--- Em 4.sql, escreva uma consulta SQL para determinar o número de filmes com uma classificação IMDb de 10,0.
+SELECT COUNT(title) FROM movies JOIN ratings on movies.id = ratings.movie_id WHERE rating=10;
